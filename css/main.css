@@ -1,0 +1,166 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  background-color:  #f48c68;
+  color: #fff;
+  text-align: right;
+}
+.big1, .big2, .big3{
+  width: 100%;
+  filter: grayscale(100%);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../assets/img/uno.jpg);
+}
+.big2{
+  height: 500px;
+  background-image: url(../assets/img/dos.jpg);
+}
+.big3{
+  height: 500px;
+  background-image: url(../assets/img/tres.jpg);
+}
+.little{
+  border: 10px solid #fff;
+  margin: 15px 0 15px 10px;
+}
+.container5{
+  margin: 0 auto;
+}
+h2, h3{
+  text-align: center;
+}
+.mini-container h3, .mini-container p{
+  text-align: center;
+}
+.mini-container{
+  position: relative;
+  width: 100%;
+  background-color: #01DF74;
+  margin: 20px auto;
+  padding: 20px 0;
+  text-align: center;
+}
+.mini-container2{
+  position: relative;
+  width: 50%;
+  margin: 20px auto;
+  background-color: #f48c68;
+  padding: 15px;
+}
+.mini-container h2{
+  background-color: #01DF74;
+}
+.row{
+  margin: 15px 0;
+}
+.main{
+  padding: 15px 0;
+}
+footer, .main{
+  margin-right: 25px;
+}
+
+@media screen and (min-width: 992px) {
+  .big1, .big2, .big3{
+    filter: grayscale(0%);
+  }
+  .col-md-1 {
+    width: 8.33333333%;
+  }
+
+  .col-md-2 {
+    width: 16.66666667%;
+  }
+
+  .col-md-3 {
+    width: 25%;
+  }
+
+  .col-md-4 {
+    width: 33.33333333%;
+  }
+
+  .col-md-5 {
+    width: 41.66666667%;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  .col-md-7 {
+    width: 58.33333333%;
+  }
+
+  .col-md-8 {
+    width: 66.66666667%;
+  }
+
+  .col-md-9 {
+    width: 75%;
+  }
+
+  .col-md-10 {
+    width: 83.33333333%;
+  }
+
+  .col-md-11 {
+    width: 91.66666667%;
+  }
+
+  .col-md-12 {
+    width: 100%;
+  }
+
+  .col-md-offset-1 {
+    margin-left: 8.33333333%;
+  }
+
+  .col-md-offset-2 {
+    margin-left: 16.66666667%;
+  }
+
+  .col-md-offset-3 {
+    margin-left: 25%;
+  }
+
+  .col-md-offset-4 {
+    margin-left: 33.33333333%;
+  }
+
+  .col-md-offset-5 {
+    margin-left: 41.66666667%;
+  }
+
+  .col-md-offset-6 {
+    margin-left: 50%;
+  }
+
+  .col-md-offset-7 {
+    margin-left: 58.33333333%;
+  }
+
+  .col-md-offset-8 {
+    margin-left: 66.66666667%;
+  }
+
+  .col-md-offset-9 {
+    margin-left: 75%;
+  }
+
+  .col-md-offset-10 {
+    margin-left: 83.33333333%;
+  }
+
+  .col-md-offset-11 {
+    margin-left: 91.66666667%;
+  }
+
+  .col-md-offset-12 {
+    margin-left: 100%;
+  }
+}
